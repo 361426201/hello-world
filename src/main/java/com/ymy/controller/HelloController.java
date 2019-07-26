@@ -9,7 +9,7 @@ public class HelloController {
 
     @RequestMapping(value = "hello",method = RequestMethod.GET)
     public String hello(){
-
-        return "HELLO-WORLD";
+          
+        return "HELLO-WORLD,I'm 天雷滚滚";
     }
 }
